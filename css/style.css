@@ -44,6 +44,7 @@ body{
     line-height: 38px;
     text-align: center;
     color: #4E5665;
+    font-weight: normal;
 }
 
 .header_top{
@@ -172,6 +173,15 @@ margin-right: 30px;
     background-repeat: no-repeat;
     background-position: right;
 }
+.about_preview-title{
+    margin-bottom: 38px;
+}
+.about_preview-text{
+    margin: 53px auto 80px;
+}
+.about_images-box{
+    padding-top: 73px;
+}
 .about_box{
     padding: 33px 40px 18px 40px;
     background-color: #ffffff;
@@ -248,6 +258,8 @@ margin-right: 30px;
 .photo_slider{
     max-width: 640px;
     margin: 0 auto;
+    filter: drop-shadow(0px 2px 24px rgba(0, 0, 0, 0.3));
+    
 }
 .slick-arrow{
     border: none;
