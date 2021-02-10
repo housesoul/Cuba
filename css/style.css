@@ -349,3 +349,37 @@ margin-right: 30px;
     font-size: 14px;
     line-height: 19px;
 }
+.menu_btn{
+    display:none;
+}
+
+
+@media(max-width:700px){
+    .header_title{
+        font-size: 120px;
+        line-height: 150px;
+    }
+    .header_text{
+        font-size: 20px;
+    }
+    .menu{
+        position: relative;
+    }
+    .menu_btn{
+        display: block;
+        width: 40px;
+        cursor: pointer;
+        position: absolute;
+        right: 40px;
+        top: 10px;
+    }
+    .menu_btn span{
+        display: block;
+        margin-bottom: 10px;
+        background-color: #FFD600;
+        height: 4px;
+    }
+    .menu_list{
+        display: none;
+    }
+}
