@@ -381,5 +381,11 @@ margin-right: 30px;
     }
     .menu_list{
         display: none;
+        padding-top: 60px;
+        text-align: center;
+
+    }
+    .menu_list-link{
+        display: block;
     }
 }
